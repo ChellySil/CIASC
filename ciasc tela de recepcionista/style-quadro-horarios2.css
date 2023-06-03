@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tanseek Árabe Moderno Médio', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #929292;
+    height: 100vh;
+    width: 250px;
+    margin-top: -7px;
+    margin-left: -5px;
+    float: left;
+}
+
+.caixa-invi {
+    margin-top: 20px;
+}
+
+.enfermagem,
+.nutricao,
+.fisioterapia,
+.nova-consulta,
+.pesquisa-consulta,
+.cadastro-paciente {
+    background-color: #C2C2C2;
+    height: 55px;
+    width: 10vw;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botao {
+
+    background-color: #C2C2C2;
+    height: 55px;
+    width: 190px;
+    border: none;
+    margin-bottom: -15px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.novo-botao:hover,
+.enfermagem:hover,
+.nutricao:hover,
+.fisioterapia:hover,
+.nova-consulta:hover,
+.pesquisa-consulta:hover,
+.cadastro-paciente:hover,
+.botao:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.nova-consulta {
+    margin-top: 20px;
+}
+
+.fisioterapia,
+.nutricao,
+.enfermagem {
+    background-color: #C2C2C2;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.emoji-fisioterapia,
+.emoji-nutricao,
+.emoji-enfermagem {
+    height: 20px;
+    width: 20px;
+}
+
+
+
+.caixa-azul {
+    display: flex;
+    margin-left: 4vw;
+    margin-right: 2vw;
+    width: 80vw;
+    height: 400px;
+    border-radius: 5px;
+    margin-top: 32px;
+    background-color: rgba(53, 79, 118, 0.88);
+    float: right;
+}
+
+.caixa-de-dentro {
+    flex-direction: column;
+    padding-left: 2vw;
+    padding-bottom: 2vw;
+
+    padding-top: 0px;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.caixa-data {
+    margin-top: 480px;
+
+}
+
+.novo-botao {
+    margin-left: 500px;
+    text-align: center;
+    justify-content: end;
+    background-color: #C2C2C2;
+    height: 55px;
+    width: 18vw;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+.emoji-calendario {
+    margin-right: 20px;
+    margin-left: 40px;
+    height: 35px;
+    width: 2.5vw;
+}
+
+
+
+
+
+.botao {
+    margin-top: 40px;
+    margin-left: 40px;
+}
