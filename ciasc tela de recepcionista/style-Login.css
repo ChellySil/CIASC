@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-image: url(foto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+  }
+  .caixa{
+      color: #7A8BA5;
+      background-color: rgba(35, 58, 94, 0.89);
+      height: 100vh;
+      width: 780px;
+      font-family: 'Tanseek Árabe Moderno Médio', 'Arial Narrow', Arial, sans-serif;
+      padding-top: 70px;
+      border-radius: 12px;
+      max-width: 1280px;
+  }
+  main .ciasc{
+      margin-top: 40px;
+      margin-left: 260px;
+      margin-right: 100px;
+  }
+  main .subtitulo{
+      margin-top: 40px;
+      margin-left: 240px;
+      margin-bottom: 70px;
+  
+  }
+  main .pedido-email, .pedido-password{
+      margin-left: 70px;
+      margin-right: 180px;
+  }
+  
+  
+  main .botao-entrar{
+      background-color: rgba(53, 79, 118, 1);
+      margin-left: 270px;
+      margin-top: 70px;
+      padding-left: 70px;
+      padding-right: 70px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      transform: scale(1.05);
+      cursor: pointer;
+      border-radius: 7px;
+      border: rgba(217, 217, 217, 1) solid 2px;
+  }
+  main .email, .password{
+      margin-left: 60px;
+      margin-right: 220px;
+      border-radius: 5px;
+      border: none;
+      padding-top: 11px;
+      padding-bottom: 11px;
+      padding-right: 220px;
+  
+  }
+  .caixa-email,
+  .caixa-password{
+    margin-left: 120px;
+  }
+  main .imagem{
+      width: 500px;
+      height: 500px;
+      float: right;
+  }
+  
+  
