@@ -1,0 +1,26 @@
+{% extends  'main.html' %}
+
+{% block content %}
+#method="post" action="/store/"#
+
+ <form name="login0" id="login0" method="post" action="doLogin/">
+
+    <div class = "col-6 mt-4 m-auto">
+        {% if msg  %}
+        <div class= " alert {{class}}">
+            {{msg}}
+        </div>
+        {%  endif  %}
+
+      {% csrf_token %}
+
+      <input type="text" name="user" id="user" placeholder="Nome do usuário">
+      <input type="password" name="password" id="password" placeholder="Senha">
+
+      <input type="submit" value="Cadastrar">
+    </div>
+
+
+ </form>
+
+{% endblock %}
