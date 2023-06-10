@@ -1,0 +1,206 @@
+body {
+    font-family: 'Tanseek Árabe Moderno Médio', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #929292;
+    height: 100vh;
+    width: 250px;
+    margin-top: -7px;
+    margin-left: -5px;
+    float: left;
+}
+
+.caixa-invi {
+    margin-top: 20px;
+}
+
+.enfermagem,
+.nutricao,
+.fisioterapia,
+.nova-consulta,
+.pesquisa-consulta,
+.cadastro-paciente {
+    background-color: #C2C2C2;
+    height: 55px;
+    width: 10vw;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botao {
+    background-color: #C2C2C2;
+    height: 55px;
+    width: 190px;
+    border: none;
+    margin-bottom: -15px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.novo-botao:hover,
+.enfermagem:hover,
+.nutricao:hover,
+.fisioterapia:hover,
+.nova-consulta:hover,
+.pesquisa-consulta:hover,
+.cadastro-paciente:hover,
+.botao:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.nova-consulta {
+    margin-top: 20px;
+}
+
+.fisioterapia,
+.nutricao,
+.enfermagem {
+    background-color: #C2C2C2;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.emoji-fisioterapia,
+.emoji-nutricao,
+.emoji-enfermagem {
+    height: 20px;
+    width: 20px;
+}
+
+main {
+    
+    flex-grow: 1;
+    padding: 20px;
+}
+
+
+
+.fundoazul {
+    position: absolute;
+    
+    height: 787px;
+    width: 422px;
+    margin-left: 400px;
+    margin-top: 12px;
+    background: rgba(53, 79, 118, 0.88);
+    border-radius: 20px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.nome {
+    text-indent: 20px;
+    position: absolute;
+    width: 367px;
+    height: 27px;
+    margin-top: 300px;
+    margin-left: 425px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.datadenascimento {
+    text-indent: 20px;
+    position: absolute;
+    width: 291px;
+    height: 27px;
+    margin-top: 350px;
+    margin-left: 425px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.datadeadmissao {
+    text-indent: 20px;
+    position: absolute;
+    width: 291px;
+    height: 27px;
+    margin-top: 400px;
+    margin-left: 425px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.cpf {
+    text-indent: 20px;
+    position: absolute;
+    width: 291px;
+    height: 27px;
+    margin-top: 450px;
+    margin-left: 425px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.telefone {
+    text-indent: 20px;
+    position: absolute;
+    width: 291px;
+    height: 27px;
+    margin-top: 500px;
+    margin-left: 425px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.fundofoto {
+
+    text-indent: 20px;
+    position: absolute;
+    width: 175px;
+    height: 165px;
+    margin-left: 525px;
+    margin-top: 35px;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+.foto img{
+    text-indent: 20px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-left: 560px;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+
+.voltar {
+    padding-top: 10px;
+    position: absolute;
+    width: 125px;
+    height: 35px;
+    margin-top: 725px;
+    margin-left: 425px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    font-family: 'Hind Vadodara', sans-serif;
+    text-align: center;
+}
+
+.deslogar {
+    padding-top: 10px;
+    position: absolute;
+    width: 125px;
+    height: 35px;
+    margin-top: 725px;
+    margin-left: 670px;
+    background: #D9D9D9;
+    border-radius: 20px;
+    font-family: 'Hind Vadodara', sans-serif;
+    text-align: center;
+}
