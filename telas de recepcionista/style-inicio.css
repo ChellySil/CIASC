@@ -1,0 +1,78 @@
+/*site docero brasil da livros de grça vai la pelo amor !!!!!!!!!!!!!*/
+* {/*isso é para remover as margens do que ficar mexendo nas maregns de cada coisa*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*COLUNA*/
+aside {/*a coluna do lado esquerdo*/
+    background-color: #929292;
+    height: 100vh;
+    width: 250px;
+    margin-top: -7px;
+    margin-left: -5px;
+    float: left;
+}
+.caixa-invi {
+    margin-top: 20px;
+}
+/*CABEÇALHO*/
+header{/*isso é o cabeçalho*/
+  background-color: #929292;
+  display: flex;
+  justify-content: flex-end;
+}
+/*aqui está o tamaho  e caracteristicas do botão d opções*/
+.opções-botao,
+.imagem-opicao{
+  height: 25px;
+  width: 30px;
+  background-color: #929292;
+  border: none;
+}
+/*aqui está a aparência dos botões*/
+.enfermagem,
+.nutricao,
+.fisioterapia,
+.nova-consulta,
+.pesquisa-consulta,
+.cadastro-paciente{
+    background-color: #C2C2C2;
+    height: 55px;
+    width: 10vw;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/*aqui está a ação dos botões de crscer*/
+.novo-botao:hover,
+.enfermagem:hover,
+.nutricao:hover,
+.fisioterapia:hover,
+.nova-consulta:hover,
+.pesquisa-consulta:hover,
+.cadastro-paciente:hover,
+.botao:hover, 
+.botao-voltar:hover,
+.botao-deslogar:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.nova-consulta {/*distância do 1 botão do cabeçalho*/
+  margin-top: 20px;
+}
+.emoji-fisioterapia,
+.emoji-nutricao,
+.emoji-enfermagem {/*aqui fica o tamaho dos botões*/
+  height: 20px;
+  width: 20px;
+}
+
+
+https://www.figma.com/file/FN2DN6TcmvdLBOg63swQhB/Projeto-CIASC-atualizado?type=design&node-id=0%3A1&t=5vxnzBKXQDfShQrC-1
+
+https://www.youtube.com/watch?v=-iIan3kXMi0
+/*video de arruamar os itens da caixa que vou colocar na caixa main*/

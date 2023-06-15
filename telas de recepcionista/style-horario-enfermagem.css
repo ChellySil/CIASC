@@ -1,0 +1,112 @@
+* {/*isso é para remover as margens do que ficar mexendo nas maregns de cada coisa*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*COLUNA*/
+aside {/*a coluna do lado esquerdo*/
+    background-color: #929292;
+    height: 100vh;
+    width: 250px;
+    margin-top: -7px;
+    margin-left: -5px;
+    float: left;
+}
+.caixa-invi {/*aqui fica os botões*/
+  margin-top: 20px;
+}
+/*CABEÇALHO*/
+header{/*isso é o cabeçalho*/
+  background-color: #929292;
+  display: flex;
+  justify-content: flex-end;
+}
+/*aqui está o tamaho  e caracteristicas do botão d opções*/
+.opções-botao,
+.imagem-opicao{
+  height: 25px;
+  width: 30px;
+  background-color: #929292;
+  border: none;
+}
+/*aqui está a aparência dos botões*/
+.enfermagem,
+.nutricao,
+.fisioterapia,
+.nova-consulta,
+.pesquisa-consulta,
+.cadastro-paciente,
+.botao-data{
+  background-color: #C2C2C2;
+  height: 55px;
+  width: 10vw;
+  border: none;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/*aqui está a ação dos botões de crscer*/
+.novo-botao:hover,
+.enfermagem:hover,
+.nutricao:hover,
+.fisioterapia:hover,
+.nova-consulta:hover,
+.pesquisa-consulta:hover,
+.cadastro-paciente:hover,
+.botao:hover,
+.botao-data:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.nova-consulta {/*distância do 1 botão do cabeçalho*/
+  margin-top: 40px;
+}
+.emoji-fisioterapia,
+.emoji-nutricao,
+.emoji-enfermagem {/*aqui fica o tamaho dos botões*/
+  height: 20px;
+  width: 20px;
+}
+
+
+/*CORPO*/
+
+.botao {/*botões de cada horario*/
+  background-color: #C2C2C2;
+  height: 55px;
+  margin-top: 40px;
+  margin-left: 12px;
+  width: 190px;
+  border: none;
+  margin-bottom: -15px;
+  border-radius: 5px;
+  font-size: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.caixa-azul {
+  margin-top: 32px;
+  margin-right: 12px;
+  width: 1000px;
+  height: 350px;
+  border-radius: 5px;
+  background-color: rgba(53, 79, 118, 0.88);
+  float: right;
+}
+.caixa-de-dentro {
+  padding-left: 60px;
+  padding-bottom: 2vw;
+  padding-top: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+/*BOTÕES DA DATA*/
+.caixa-data {
+  margin-top: 60px;
+}
+.data{
+  background-color: #C2C2C2;
+  border: none;
+}

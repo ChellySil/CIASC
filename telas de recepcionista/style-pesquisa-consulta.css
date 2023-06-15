@@ -1,0 +1,115 @@
+*{/*aqui é para remover a margem minima do corpo total */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+aside {/*a coluna do lado esquerdo*/
+    background-color: #929292;
+    height: 100vh;
+    width: 250px;
+    margin-top: -7px;
+    margin-left: -5px;
+    float: left;
+}
+header{/*isso é o cabeçalho*/
+  background-color: #929292;
+  display: flex;
+  justify-content: flex-end;
+}
+/*aqui está o tamaho  e caracteristicas do botão d opções*/
+.opções-botao,
+.imagem-opicao{
+  height: 25px;
+  width: 30px;
+  background-color: #929292;
+  border: none;
+}
+
+/*aqui está a aprecia dos botões*/
+.enfermagem,
+.nutricao,
+.fisioterapia,
+.nova-consulta,
+.pesquisa-consulta,
+.cadastro-paciente,
+.botao-voltar,
+.botao-deslogar,
+.botao{
+    background-color: #C2C2C2;
+    height: 55px;
+    width: 10vw;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nova-consulta {/*distância do 1 botão do cabeçalho*/
+  margin-top: 40px;
+}
+
+.nova-consulta {/*distância do 1 botão do cabeçalho*/
+  margin-top: 40px;
+}
+
+/*aqui está a ação dos botões de crscer*/
+.novo-botao:hover,
+.enfermagem:hover,
+.nutricao:hover,
+.fisioterapia:hover,
+.nova-consulta:hover,
+.pesquisa-consulta:hover,
+.cadastro-paciente:hover,
+.botao:hover, 
+.botao-voltar:hover,
+.botao-deslogar:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.emoji-fisioterapia,
+.emoji-nutricao,
+.emoji-enfermagem{/*tamanho padrão dos emojis das especialidades*/
+    height: 20px;
+    width: 20px;
+  }
+
+
+main{/*aqui é onde tudo de nova consulta*/
+  margin-right: 12px;
+  width: 1000px;
+  height: 100px;/*arrumar aqui para quando houver alteração da div com os negocios a main acompanhar em relação a altura*/
+  border-radius: 5px;
+  margin-top: 32px;/*ver com o samuel se essa altura está boa, pq não vai dar para seguir a ideia do luciano de 8px*/
+  background-color: rgba(53, 79, 118, 0.88);
+  float: right;/*flutuar para a direita*/
+  display:flex;
+}
+.caixa-de-dentro{/*aqui é para vc colocar os itens da caixa em ordem separada do botão*/
+  padding-left: 60px;/*isso é a distância dos objetos da berada esquerda da div, só para não ficar muito próximo*/
+  padding-top: 12px;
+  padding-right: 30px;
+  display: flex;/*aqui é para colocar as pequenas caixas de itens um do lado do outro*/
+  flex-wrap: wrap;/*aqui é para se  as caixas não couberem em seus devidos lugares decerem */
+}
+
+.colocar-nome{
+  border: none;
+  background-color: #C2C2C2;
+  height:22px;
+  width:360px;/*isso aqui varea para cada tamanho de laragura que foi de defindo*/
+  border-radius: 7px;
+}
+.colocar-cpf{
+  margin-left: 8px;/*era essa porcaria que o samuel estava falando de distância padronizada de elementos*/
+  border: none;
+  background-color: #C2C2C2;
+  height:22px;
+  width:210px;/*isso aqui varea para cada tamanho de laragura que foi de defindo*/
+  border-radius: 7px;
+}
+.botao{
+  margin-top: 10px;
+  margin-left: 67px;
+}

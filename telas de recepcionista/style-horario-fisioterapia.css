@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+aside {
+    background-color: #929292;
+    height: 100vh;
+    width: 250px;
+    margin-top: -7px;
+    margin-left: -5px;
+    float: left;
+}
+header{
+  background-color: #929292;
+  display: flex;
+  justify-content: flex-end;
+}
+.opções-botao,
+.imagem-opicao{
+  height: 25px;
+  width: 30px;
+  background-color: #929292;
+  border: none;
+}
+
+.caixa-invi {
+    margin-top: 20px;
+}
+
+.enfermagem,
+.nutricao,
+.fisioterapia,
+.nova-consulta,
+.pesquisa-consulta,
+.cadastro-paciente,
+.botao-data{
+    background-color: #C2C2C2;
+    height: 55px;
+    width: 10vw;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botao {
+
+    background-color: #C2C2C2;
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 55px;
+    width: 190px;
+    border: none;
+    margin-bottom: -15px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.novo-botao:hover,
+.enfermagem:hover,
+.nutricao:hover,
+.fisioterapia:hover,
+.nova-consulta:hover,
+.pesquisa-consulta:hover,
+.cadastro-paciente:hover,
+.botao:hover,
+.botao-data:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.nova-consulta {
+    margin-top: 40px;
+}
+
+.fisioterapia,
+.nutricao,
+.enfermagem {
+    background-color: #C2C2C2;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.emoji-fisioterapia,
+.emoji-nutricao,
+.emoji-enfermagem {
+    height: 20px;
+    width: 20px;
+}
+
+
+
+.caixa-azul {
+  margin-top: 32px;
+  margin-right: 12px;
+  width: 1000px;
+  height: 300px;
+  border-radius: 5px;
+  background-color: rgba(53, 79, 118, 0.88);
+  float: right;
+}
+.caixa-de-dentro {
+  padding-left: 60px;
+  padding-bottom: 2vw;
+  padding-top: 30px;
+  padding-right: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+/*BOTÕES DA DATA*/
+.caixa-data {
+  margin-top: 90px;
+  justify-content: end;
+}
+.data{
+  background-color: #C2C2C2;
+  border: none;
+}
